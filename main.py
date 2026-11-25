@@ -294,7 +294,8 @@ DEFAULT_MOOD = "neutral"
 st.sidebar.markdown("### ⚙️ Parameter Klinis Pasien")
 input_method = st.sidebar.radio(
     "Sumber Data:",
-    ["Manual Input", "Upload CSV"],
+    ["Manual Input"],
+    #["Manual Input", "Upload CSV"],
     horizontal=True,
     key="heart_radio",
     on_change=reset_prediction_states
